@@ -163,10 +163,6 @@ form {
   border: none !important;
 }
 
-.amount_used {
-
-}
-
-.appliance {
-  
+.fields, .field {
+  margin: 10px;
 }
