@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guarden</title>
 
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="undefined" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/consumption.css">
 </head>
 
@@ -23,7 +28,113 @@
     </nav>
 
     <main>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10">
+                    <h3 class="text-dark mb-4 cons">Total Consumption</h3>
+                </div>
+                <div class="col-md-2">
+                    <div class="card shadow coin">
+                        <img src="./img/seed.png" width="26px" height="25px">
+                        <p>420</p>
+                    </div>
+                    <button class="plus"><img src="./img/plus.svg" width="30px"></button>
+                </div>
+            </div>
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="table-responsive table mt-2" id="dataTable" role="grid"
+                        aria-describedby="dataTable_info">
+                        <table class="table table-hover my-0" id="dataTable">
+                            <thead>
+                                <tr>
+                                    <th>Appliance(s)</th>
+                                    <th>Hours</th>
+                                    <th>Impact</th>
+                                    <th>Verified</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Refrigerator</td>
+                                    <td>20</td>
+                                    <td>-20</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Air Conditioner</td>
+                                    <td>8</td>
+                                    <td>-12</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Car</td>
+                                    <td>4</td>
+                                    <td>-16</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Refrigerator</td>
+                                    <td>20</td>
+                                    <td>-20</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Air Conditioner</td>
+                                    <td>8</td>
+                                    <td>-12</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Car</td>
+                                    <td>4</td>
+                                    <td>-16</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Refrigerator</td>
+                                    <td>20</td>
+                                    <td>-20</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Air Conditioner</td>
+                                    <td>8</td>
+                                    <td>-12</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Car</td>
+                                    <td>4</td>
+                                    <td>-16</td>
+                                    <td>Yes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 align-self-center">
+                            <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">
+                                Showing 1 to 9 of 27</p>
+                        </div>
+                        <div class="col-md-6">
+                            <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
+                                <ul class="pagination">
+                                    <li class="page-item disabled"><a class="page-link" href="#"
+                                            aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span
+                                                aria-hidden="true">»</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
 </body>
 

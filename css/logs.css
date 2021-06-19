@@ -118,7 +118,6 @@ nav {
 form {
   display: flex;
   /* flex-direction: column; */
-
 }
 
 .form-content input[type="text"],
@@ -136,7 +135,6 @@ form {
   color: #8d8d8d;
   transition: all 0.3s ease;
   margin-top: 7px;
-  
 }
 
 .choices__input {
@@ -159,6 +157,7 @@ form {
   border: none !important;
 }
 
-.fields, .field {
+.fields,
+.field {
   margin: 10px;
 }

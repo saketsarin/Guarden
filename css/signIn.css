@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.col-6 {
+  width: 38% !important;
+}
+
+.bgImg {
+  background: url("../img/signin.svg");
+  background-repeat: no-repeat !important;
+  background-position: center;
+}
+
+h3 {
+  color: #00a03a;
+}
+
+.green {
+  background-color: #18cf5c;
+}
+
+.signUp {
+  margin-left: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #00a03a;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
+.signUp:hover {
+  background-color: #fff;
+  border: 2px solid #00a03a;
+  color: #00a03a;
+  transition: 0.3s all ease-in;
+}

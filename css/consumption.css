@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+  overflow: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -19,6 +24,10 @@ nav {
   color: #00a03a;
   font-size: 20px;
   text-decoration: none;
+}
+
+.logo:hover {
+  color: #00a03a;
 }
 
 .buttons {
@@ -36,8 +45,9 @@ nav {
 }
 
 .signIn:hover {
+  color: #00a03a;
   border: 2px solid #00a03a;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .signUp {
@@ -49,9 +59,42 @@ nav {
   padding: 12px 30px;
 }
 
-main {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+.signUp:hover {
+  color: white;
+}
+
+.cons {
+  text-align: center;
+  padding-top: 17px;
+  text-decoration: underline #00a03a;
+  text-underline-offset: 3px;
+}
+
+.coin {
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  z-index: -1;
+}
+
+.coin p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.plus {
+  margin-left: -18px;
+  background: none;
+  border: none;
+}
+
+.plus img {
+  margin-bottom: 30px;
+}
+
+th {
+  color: #00a03a;
 }
