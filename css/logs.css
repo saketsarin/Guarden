@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00a03a;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #00a03a;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.signIn {
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4e4e4e;
+  text-decoration: none;
+  padding: 11px 30px;
+  cursor: pointer;
+}
+
+.signIn:hover {
+  border: 2px solid #00a03a;
+  color: #4e4e4e;
+}
+
+.signUp {
+  margin-left: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #00a03a;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
+.signUp:hover {
+  color: white;
+}
+
+.form-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-holder .form-content {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.form-content .form-items {
+  border: 3px solid #00a03a;
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  min-width: 640px;
+  border-radius: 10px;
+  text-align: left;
+  transition: all 0.4s ease;
+}
+
+.form-content h3 {
+  color: #00a03a;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 30px;
+}
+
+.form-content p {
+  color: #6c757d;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.form-content label {
+  color: black;
+}
+
+.form-content input[type="text"],
+.form-content input[type="number"],
+.form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8d8d8d;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+
+.choices__input {
+  margin: 0 !important;
+  background-color: transparent !important;
+  width: fit-content !important;
+}
+
+.btn-primary {
+  background-color: #6c757d;
+  outline: none;
+  border: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #00a03a;
+  outline: none !important;
+  border: none !important;
+}
