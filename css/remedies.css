@@ -55,26 +55,3 @@ main {
   align-items: center;
   justify-content: center;
 }
-
-.left {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 25px;
-}
-
-.heading {
-  display: inline-block;
-  font-size: 60px;
-  color: #000000;
-}
-
-.green {
-  display: inline-block;
-  color: #00a03a;
-}
-
-.intro {
-  padding: 10px 0px;
-  font-size: 17px;
-  color: gray;
-}
