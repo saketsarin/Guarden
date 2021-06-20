@@ -32,6 +32,7 @@ $arr = explode("\n", $data);
         <div class="row1">
             <div class="heading">
                 Give Back to <div class="green">The Nature</div>,<br> do some remedies.
+                Your <div class= "green">Carbon Impact</div> points are: <?php echo $arr[1]; ?>
             </div>
         </div>
         <div class="row">
@@ -182,7 +183,7 @@ $arr = explode("\n", $data);
                 </lord-icon>
                 <div class="card-body dist">
                     <h5 class="card-title">Go for Cycling</h5>
-                    <p class="card-text">You can even replace <?php echo $arr[1]; ?> hours of driving by simply bicycling or walking, if that suits you.</p>
+                    <p class="card-text">You can even replace <?php echo $arr[3]; ?> hours of driving by simply bicycling or walking, if that suits you.</p>
                     <a href="#" class="btn btn-success">Let's Gooo!!</a>
                 </div>
             </div>
