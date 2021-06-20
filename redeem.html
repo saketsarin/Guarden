@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Products</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/redeem.css">
-        <link rel="stylesheet" href="css/remedies.css">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav>
-            <a class="logo" href="./index.html">
-                <img src="./img/logo.svg" alt="Logo" width="70px" height="70px">
-                Guarden
-            </a>
-            <div class="buttons">
-                <a class="signUp" href="./consumption.html">Check Consumption</a>
-                <a class="signIn" href="./logs.html">Add Logs</a>
-            </div>
-        </nav>
+
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/redeem.css">
+  <link rel="stylesheet" href="css/remedies.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="./index.html">
+      <img src="./img/logo.svg" alt="Logo" width="70px" height="70px">
+      Guarden
+    </a>
+    <div class="buttons">
+      <a class="signUp" href="./remedies.html">Check Remedies</a>
+      <a class="signIn" href="./logs.html">Add Logs</a>
+    </div>
+  </nav>
 
 
-        <div  style="display: block; text-align: center;">
-            <h1><u>Time to redeem your GreenCoins!</u></h1>
-        </div>
-          
-          <div class="product">
-            <div class="card" style="margin: 100px;">
-            <img src="img/beanie.jpg" style="width: 100%" alt="butter50">
-            <button type="button" class="btn btn-outline-dark" onclick="soon()">Greenie Benie</button>
+  <div style="display: block; text-align: center;">
+    <h1>Time to redeem your <div class="green">GreenCoins!</div>
+    </h1>
+  </div>
 
-            </div>
-          </div>
+  <div class="product">
+    <div class="card" style="margin: 100px;">
+      <img src="img/beanie.jpg" style="width: 100%" alt="butter50">
+      <button type="button" class="btn btn-outline-dark" onclick="soon()">Greenie Benie</button>
 
-          <div class="product">
-            <div class="card" style="margin: 100px;">
-            <img src="img/tee.jpg" style="width: 100%;" alt="bread50">
-            <a href="index.html" class="btn btn-outline-success">Green Tee</a>
-            </div>
-          </div>
+    </div>
+  </div>
 
-          <div class="product">
-            <div class="card" style="margin: 100px;">
-            <img src="img/mask.jpg" style="width: 100%;" alt="Jam50">
-            <button type="button" class="btn btn-outline-danger" onclick="soon()">Garden Mask</button>
-            </div>
-          </div>
+  <div class="product">
+    <div class="card" style="margin: 100px;">
+      <img src="img/tee.jpg" style="width: 100%;" alt="bread50">
+      <a href="index.html" class="btn btn-outline-success">Green Tee</a>
+    </div>
+  </div>
 
-          
-          <script>
-            function soon()
-            {
-              alert("Coming Soon!")
-            }
-          </script>
-    </body>
+  <div class="product">
+    <div class="card" style="margin: 100px;">
+      <img src="img/mask.jpg" style="width: 100%;" alt="Jam50">
+      <button type="button" class="btn btn-outline-danger" onclick="soon()">Garden Mask</button>
+    </div>
+  </div>
+
+
+  <script>
+    function soon() {
+      alert("Coming Soon!")
+    }
+  </script>
+</body>
+
 </html>
