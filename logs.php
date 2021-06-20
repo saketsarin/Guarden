@@ -5,7 +5,6 @@ foreach($_POST['Degree'] as $r) {
   array_push($arr, $r);
 }
 $data = file_get_contents('https://NeutralizeCarbon.neeltron.repl.co/input_web?rh='.$arr[0].'&ah='.$arr[1].'&vh='.$arr[2]);
-echo $data;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,13 +27,13 @@ echo $data;
 
 <body>
     <nav>
-        <a class="logo" href="./index.html">
+        <a class="logo" href="./index.php">
             <img src="./img/logo.svg" alt="Logo" width="70px" height="70px">
             Guarden
         </a>
         <div class="buttons">
             <a class="signIn" href="./consumption.html">Check Consumption</a>
-            <a class="signUp" href="./remedies.html">Check Remedies</a>
+            <a class="signUp" href="./remedies.php">Check Remedies</a>
         </div>
     </nav>
 
