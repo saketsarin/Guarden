@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,7 +41,7 @@
                             <h3>Your Carbon Footprint</h3>
                             <p>Fill in the data below.</p>
 
-                            <form class="requires-validation" novalidate style="flex-direction: column;">
+                            <form method = "post" action = "https://FunctionalPrevailingQuadrants.neeltron.repl.co/logs.php" class="requires-validation" novalidate style="flex-direction: column;">
 
                                 <div id="insert_field">
                                     <div class="field" style="display: flex">
@@ -71,12 +74,11 @@
 
                                 </div>
 
-                            </form>
-
-                            </form>
+                            
                             <div class="form-button mt-3">
                                 <button id="submit" type="submit" class="btn btn-primary">Submit</button>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
