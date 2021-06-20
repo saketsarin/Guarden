@@ -21,6 +21,9 @@ nav {
   text-decoration: none;
 }
 
+.logo:hover {
+  color: #00a03a;
+}
 .buttons {
   margin: 20px;
 }
@@ -35,6 +38,7 @@ nav {
 }
 
 .signIn:hover {
+  color: #00a03a;
   border: 2px solid #00a03a;
   transition: all 0.3s ease-in;
 }
@@ -49,9 +53,55 @@ nav {
   padding: 12px 30px;
 }
 
+.signUp:hover {
+  color: white;
+}
+
 main {
   display: flex;
   margin: auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  max-height: 85vh;
+}
+
+.card-text {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.dist {
+  padding-top: 63px;
+}
+
+.dist1 {
+  padding-top: 85px;
+}
+
+.tree {
+  padding-top: 10px;
+}
+
+.row1 {
+  max-width: 30vw;
+  margin-left: -150px;
+  margin-right: -200px;
+}
+
+.heading {
+  display: inline-block;
+  font-size: 40px;
+  color: #000000;
+}
+
+.green {
+  display: inline-block;
+  color: #00a03a;
+}
+
+.card {
+  margin-right: 60px;
 }
