@@ -24,7 +24,7 @@ $arr = explode("\n", $data);
         </a>
         <div class="buttons">
             <a class="signUp" href="./consumption.html">Check Consumption</a>
-            <a class="signIn" href="./logs.html">Add Logs</a>
+            <a class="signIn" href="./logs.php">Add Logs</a>
         </div>
     </nav>
 

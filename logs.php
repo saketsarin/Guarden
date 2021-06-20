@@ -27,13 +27,13 @@ $data = file_get_contents('https://NeutralizeCarbon.neeltron.repl.co/input_web?r
 
 <body>
     <nav>
-        <a class="logo" href="./index.html">
+        <a class="logo" href="./index.php">
             <img src="./img/logo.svg" alt="Logo" width="70px" height="70px">
             Guarden
         </a>
         <div class="buttons">
             <a class="signIn" href="./consumption.html">Check Consumption</a>
-            <a class="signUp" href="./remedies.html">Check Remedies</a>
+            <a class="signUp" href="./remedies.php">Check Remedies</a>
         </div>
     </nav>
 
