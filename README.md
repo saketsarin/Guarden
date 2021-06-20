@@ -5,4 +5,5 @@
 
 
 ## This is a project for MLH Garden Hacks
+!(https://github.com/saketsarin/Guarden/blob/master/screenshots/logo.gif?raw=true)
 
