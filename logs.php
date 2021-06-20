@@ -1,5 +1,11 @@
 <?php
-
+$rh = $_REQUEST["Degree"];
+$arr = array();
+foreach($_POST['Degree'] as $r) {
+  array_push($arr, $r);
+}
+$data = file_get_contents('https://NeutralizeCarbon.neeltron.repl.co/input_web?rh='.$arr[0].'&ah='.$arr[1].'&vh='.$arr[2]);
+echo $data;
 ?>
 <!DOCTYPE html>
 <html lang="en">
